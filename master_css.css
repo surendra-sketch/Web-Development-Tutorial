@@ -2,3 +2,8 @@
     font-family: monospace;
     background-color: rgb(226, 246, 250);
 }
+
+a {
+    color: black;
+    text-decoration: underline;
+}
