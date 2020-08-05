@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setInterval() & setTimeOut() method in JavaScript</title>
+    <link rel="stylesheet" href="../master_style.css">
+</head>
+<body>
+    <h1>setInterval() & setTimeout() method in JavaScript</h1>
+    <div class="method">
+        <h2>Window setTimeout() method</h2>
+        <p>The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds. <br>
+        <strong>Tip: </strong>1000ms = 1 second. <br>
+        <strong>Tip: </strong> The function is only executed once. If you need to repeat execution, use the setInterval() method. <br>
+        <strong>Tip: </strong> Use the clearTimeOut() method to prevent the function from running.
+        </p> 
+        <div class="code">
+            <code>
+            //SYNTAX: 
+            <br>
+            setTimeout(function_name, milliseconds, param1, param2,...);
+            </code>
+        </div>
+        <h4>Parameter Values</h4>
+        <p>function_name: Required. The function that will be executed <br>
+        milliseconds: Optional. The number of milliseconds to wait before executing the code. If omitted, the value 0 is used. <br>
+        param1, param2: Optional. Additional parameters to pass to the function.
+        </p>
+    </div>
+    <br>
+    <div class="method">
+        <h2>Window clearTimeout() Method</h2>
+        <p>The clearTimeout() Method clears a timer set with the setTimeout method. <br>
+        The ID value returned by setTimeout() is used as the parameter for the clearTimeout() method. <br>
+        </p>
+        <div class="code">
+            <code>
+                //SYNTAX: <br>
+                clearTimeout(id_returned_by_setTimeout);
+            </code>
+        </div>
+        <h4>Parameter Values</h4>
+        <p>id_of_setTimeout: Required. The ID value of the timer returned by the setTimeout() method.</p>
+    </div>
+
+    <div class="method">
+        <h2>Window setInterval() Method</h2>
+        <p>The setInterval() method calls a function or evaluates an expression at specified intervals(in milliseconds). <br>
+        The setInterval() method will continue calling the function until clearInterval() is called, or the window is closed. <br>
+        The ID value returned by setInterval() is used as the parameter for the clearInterval method. <br>
+        <strong>Tip: </strong>1000 ms = 1 sec</p>
+        <div class="code">
+            <code>
+            //SYNTAX: 
+            <br>
+            setInterval(function_name, milliseconds, param1, param2,...);
+            </code>
+        </div>
+        <h4>Example: Clock</h4>
+        <div id="timeNow">
+
+        </div>
+    </div>
+
+
+    
+
+    <!-- Custom JavaScript -->
+    <script src="script/setInterval_&_setTimeout_method.js"></script>
+</body>
+</html>

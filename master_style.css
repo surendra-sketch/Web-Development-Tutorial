@@ -11,3 +11,14 @@ a {
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+div.code {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 1rem;
+    width: 90%;
+}
+code {
+    background-color: rgb(255, 255, 255);
+}
