@@ -11,9 +11,9 @@ function greeter(name) {
 
 // clearTimeout(2);
 
-// Window setInterval() method
-let setIntervalId = setInterval(greeter, 1000, "Ashu");
-setTimeout(clearTimeout, 20000, setIntervalId); 
+// // Window setInterval() method
+// let setIntervalId = setInterval(greeter, 1000, "Ashu");
+// setTimeout(clearTimeout, 20000, setIntervalId); 
 
 // Code for making clock
 function displayTime() {
