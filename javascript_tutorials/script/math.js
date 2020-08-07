@@ -47,3 +47,19 @@ Math.min(0, 1324, 343, 34334, 34343, 4341, -1); // returns 34343
 // Math.random()
 // Math.random() returns a random number between 0 (inclusive), and 1(exclusive)
 Math.random(); // retruns a random number
+
+
+// E: 2.718281828459045
+// LN2: 0.6931471805599453
+// LN10: 2.302585092994046
+// LOG2E: 1.4426950408889634
+// LOG10E: 0.4342944819032518
+// PI: 3.141592653589793
+// SQRT1_2: 0.7071067811865476
+// SQRT2: 1.4142135623730951
+
+console.log("Value of E =", Math.E);
+console.log("Value of LN2 =", Math.LN2) // Natuaral log of 2
+console.log("Value of LN10 =", Math.LN10) // Natural logrithm of 10
+console.log("Value of LOG2E =", Math.LOG2E) // The base-2 logarithm of e.
+console.log("Value of LOG10E =", Math.LOG10E) //The base-10 logarithm of e.
