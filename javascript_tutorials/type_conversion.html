@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Type Conversion</title>
+    <link rel="stylesheet" href="../master_style.css">
+</head>
+<body>
+    <h1>JavaScript Type Conversion</h1>
+    <div class="method">
+        <h2>JavaScript Data Types</h2>
+        <p>
+            In JavaScript there are 5 different data types that can contain values: <br>
+            <ul>
+                <li>string</li>
+                <li>number</li>
+                <li>boolean</li>
+                <li>object</li>
+                <li>function</li>
+            </ul> 
+            There are 6 types of objects: <br>
+            <ul>
+                <li>Object</li>
+                <li>Date</li>
+                <li>Array</li>
+                <li>String</li>
+                <li>Number</li>
+                <li>Boolean</li>
+            </ul> 
+            And 2 data types that cannot contain values: <br>
+            <ul>
+                <li>null</li>
+                <li>undefined</li>
+            </ul>
+        </p>
+    </div>
+    <br>
+    <div class="method">
+        <h2>The typeof Operator</h2>
+        <p>We can use the typeof operator to find the data type of a javascript variable</p>
+        <p id="typeof_output"></p>
+    </div>
+    <br>
+
+    <div class="method">
+        <h2>The constructor Property</h2>
+        <p>The constructor property returns the constructor function for all JavaScript variables.</p>
+        <p><strong>Example: </strong></p>
+        <div class="code">
+            <code>
+                "John".constructor 
+            </code>
+        </div>
+        <p id="constructor_fn_output"></p>
+        <br>
+
+        <p>You can check the constructor property to find out if an object is an Array (contains the word "Array" after using with .constructor property and converted to string using toString)</p>
+        <div class="code"><code>
+            function checkArray(myArray) { <br>
+                return (myArray.constructor.toString().indexOf("Array") > -1); <br>
+            }
+        </code></div>
+        <p><strong>Output: </strong></p>
+        <p id="checkArray_output"></p>
+        <br>
+
+        <p>Or even simpler, you can check if the object is an Array function.</p>
+        <div class="code"><code>
+            function checkArray2(myArray2) { <br>
+                return myArray2.constructor === Array; <br>
+            }
+        </code></div>
+        <strong>Output: </strong>
+        <p id="checkArray2_output"></p>
+    </div>
+    <!-- Custom JavaScript -->
+    <script src="script/type_conversion.js"></script>
+</body>
+</html>
