@@ -58,8 +58,28 @@ Math.random(); // retruns a random number
 // SQRT1_2: 0.7071067811865476
 // SQRT2: 1.4142135623730951
 
-console.log("Value of E =", Math.E);
+console.log("Value of E =", Math.E); // value of euler's number
 console.log("Value of LN2 =", Math.LN2) // Natuaral log of 2
 console.log("Value of LN10 =", Math.LN10) // Natural logrithm of 10
 console.log("Value of LOG2E =", Math.LOG2E) // The base-2 logarithm of e.
 console.log("Value of LOG10E =", Math.LOG10E) //The base-10 logarithm of e.
+
+// JavaScript cbrt() method
+// it returns a cubic root of a given number.
+console.log(Math.cbrt(512));
+
+// JavaScript SQRT_2 Property
+// returns the sqaure root of 2
+console.log(Math.SQRT2);
+// returns the square root of half(i.e 0.5)
+console.log(Math.SQRT1_2);
+
+// JavaScript trunc() method
+// the trunc() method returns the integer parts of a number.
+// NOTE: This method will NOT round the number up/down to the nearest integer, but simply remove the decimals.
+console.log(Math.trunc(323.32323)); // returns 323
+
+// JavaScript exp() Method
+// the exp() method returns the value of E power x, were E is Euler's number (approximately 2.718)
+// and x is the number passed to it.
+console.log(Math.exp(3)); // returns 20.085536923187668
