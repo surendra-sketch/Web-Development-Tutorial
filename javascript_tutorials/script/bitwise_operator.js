@@ -71,3 +71,8 @@ function bin2dec(bin) {
     return Number(parseInt(bin,2).toString(10));
 }
 console.log(bin2dec(100));
+
+function hex2bin(hex) {
+    hex = hex.toString();
+    return (parseInt(hex, 16).toString(2).padStart(8,'0'));
+}
